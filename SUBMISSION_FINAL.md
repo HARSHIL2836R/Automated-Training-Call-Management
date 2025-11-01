@@ -119,42 +119,12 @@ You can:
 | **Updates** | HTTP Polling | WebSockets | Call API doesn't support WS, polling is simpler |
 | **Timezone** | Server local time | User timezone | Reduced complexity for 1-hour constraint |
 
-### What Would I Improve With More Time
-
-**Immediate (30 more minutes):**
-- Unit tests for backend
-- Retry logic for failed API calls
-- Pagination for large call lists
-
-**Production Ready (2-4 hours):**
-- WebSocket implementation for real-time updates
-- User authentication and authorization
-- Comprehensive error logging
-- Docker containerization
-- Environment-based configuration
-
-**Enterprise (1-2 days):**
-- Multi-user support with role-based permissions
-- Call analytics and reporting dashboard
-- Recurring call scheduling
-- SMS/email notifications
-- Integration with multiple call providers
-
 ### Code Quality Focus
 
 - **Clean structure**: Separated concerns (API, database, scheduling)
 - **Error handling**: Try-catch blocks, user-friendly error messages
 - **Documentation**: Inline comments, comprehensive README
 - **Naming conventions**: Descriptive variable names, consistent patterns
-
-### Time Breakdown
-
-- **Backend**: ~20 minutes (Flask API + APScheduler + SQLite)
-- **Frontend**: ~20 minutes (UI + API integration + real-time updates)
-- **Documentation**: ~15 minutes (README, design docs)
-- **Testing & Polish**: ~5 minutes
-
-**Total**: ~60 minutes
 
 ---
 
